@@ -13,8 +13,19 @@
 
 header {
     display: flex;
+    justify-content: space-between;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbarMain {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 80%
+}
 .contentContainer {
     display: flex;
     border: black 1px solid;
@@ -35,21 +46,36 @@ header {
 
 .contentArticle {
     display: flex;
-    flex-basis: 100%;
+    flex-wrap: wrap;
     border: green 1px solid;
+    justify-content: space-around;
 }
 
 .containerLeft__fishList {
 
 }
 
+.fishCard {
+    flex-basis: 30%;
+    /* background-color: red; */
+}
+
 .containerLeft__travelQuotes {
-    
+
+}
+
+.quoteCard {
+    flex-basis: 30%;
 }
 
 .containerLeft__travelLocations {
-
+    
 }
+
+.locationCard {
+    flex-basis: 30%;
+}
+
 
 footer {
     display: flex;
