@@ -1,0 +1,57 @@
+.fishCard__img {
+    width: 100px;
+}
+
+.locationCard__landmark {
+    width: 100px;
+
+}
+.logo {
+    width: 100px;
+}
+/* everything above here is placeholder css. delete after adding flex containers */
+
+header {
+    display: flex;
+}
+
+.contentContainer {
+    display: flex;
+    border: black 1px solid;
+    justify-content: space-between;
+}
+
+.containerRight {
+    border: red 1px solid;
+    flex-basis: 30%;
+}
+
+.containerLeft {
+    display: flex;
+    flex-direction: column;
+    border: blue 1px solid;
+    flex-basis: 65%;
+}
+
+.contentArticle {
+    display: flex;
+    flex-basis: 100%;
+    border: green 1px solid;
+}
+
+.containerLeft__fishList {
+
+}
+
+.containerLeft__travelQuotes {
+    
+}
+
+.containerLeft__travelLocations {
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+}
