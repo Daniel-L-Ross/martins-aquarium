@@ -5,6 +5,7 @@ import { useTip } from './tips/TipDataProvider.js'
 import { TipList } from './tips/TipList.js'
 
 import { useLocation } from './locations/LocationDataProvider.js'
+import { LocationList } from './locations/LocationList.js'
 
 // fish automation section
 const allTheFish = useFish()
@@ -32,3 +33,5 @@ const allLocations = useLocation()
 for (const locationObj of allLocations) {
     console.log(locationObj)
 }
+
+LocationList()
