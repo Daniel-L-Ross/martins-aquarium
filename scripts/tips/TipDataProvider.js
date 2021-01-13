@@ -5,7 +5,7 @@ const tipCollection = [
     },
     {
         subject: "Fish Exercise",
-        text: "Avoid taking your fish for walks, as they can't breathe air and don't have legs."
+        text: "Avoid taking your fish for walks as they can't breathe air and don't have legs."
     }
 ]
 
