@@ -11,6 +11,7 @@ export const QuoteList = () => {
     }
 
     contentElement.innerHTML +=`
+        <h2 class="content__title">Martin's Favorite Quotes</h2>
         <article class="containerLeft__QuoteList contentArticle">
             ${quoteHTMLRepresentations}
         </article>

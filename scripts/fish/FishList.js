@@ -10,6 +10,7 @@ export const FishList = () => {
         fishHTMLRepresentations += Fish(fish);
     }
     contentElement.innerHTML += `
+        <h2 class="content__title">Martin's Fish List</h2>
         <article class="containerLeft__fishList contentArticle">
             ${fishHTMLRepresentations}
         </article>

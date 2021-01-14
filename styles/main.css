@@ -26,6 +26,21 @@ nav {
     justify-content: space-between;
 }
 
+.content__title{
+    text-align: center;
+    /* background-color: red; */
+}
+
+.tipContainer {
+    display: flex;
+    flex-direction: column;
+    /* border: red 1px solid; */
+    /* background: rgba(255, 255, 255, 0.2); */
+    flex: 1;
+    /* border-radius: 10px; */
+    /* margin: 10px 0 10px 15px; */
+}
+
 .containerRight {
     /* border: red 1px solid; */
     background: rgba(255, 255, 255, 0.2);
