@@ -29,16 +29,6 @@ for (const tip of allTheTips) {
 
 TipList()
 
-// location automation section
-
-const allLocations = useLocation()
-
-for (const locationObj of allLocations) {
-    console.log(locationObj)
-}
-
-LocationList()
-
 // quote automation section
 
 const allQuotes = useQuote()
@@ -48,3 +38,13 @@ for (const quoteObj of allQuotes) {
 }
 
 QuoteList()
+
+// location automation section
+
+const allLocations = useLocation()
+
+for (const locationObj of allLocations) {
+    console.log(locationObj)
+}
+
+LocationList()
