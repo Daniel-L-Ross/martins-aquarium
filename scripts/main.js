@@ -7,6 +7,8 @@ import { TipList } from './tips/TipList.js'
 import { useLocation } from './locations/LocationDataProvider.js'
 import { LocationList } from './locations/LocationList.js'
 
+import { useQuote } from './quotes/QuoteDataProvider.js'
+
 // fish automation section
 const allTheFish = useFish()
 
@@ -35,3 +37,11 @@ for (const locationObj of allLocations) {
 }
 
 LocationList()
+
+// quote automation section
+
+const allQuotes = useQuote()
+
+for (const quoteObj of allQuotes) {
+    console.log(quoteObj)
+}
