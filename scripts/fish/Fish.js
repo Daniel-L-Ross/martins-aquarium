@@ -2,7 +2,7 @@ export const Fish = (fish) => {
     return `
         <section class="fishCard">
             <div class="fishCard__content">
-                <img src="./images/${fish.image}" alt="" class="fishCard__image">
+                <img src="./images/${fish.image}" alt="" class="fishCard__image image--card">
                 <div class="fish__name">Name: ${fish.name}</div>
                 <div class="fish__species">Species: ${fish.species}</div>
                 <div class="fish__length">Length: ${fish.length}</div>
@@ -12,5 +12,3 @@ export const Fish = (fish) => {
             </section>
             `
         }
-        
-        // <div><img class="fish__image image--card" src="${fish.image}" /></div>
