@@ -8,6 +8,7 @@ import { useLocation } from './locations/LocationDataProvider.js'
 import { LocationList } from './locations/LocationList.js'
 
 import { useQuote } from './quotes/QuoteDataProvider.js'
+import { QuoteList } from './quotes/QuoteList.js'
 
 // fish automation section
 const allTheFish = useFish()
@@ -45,3 +46,5 @@ const allQuotes = useQuote()
 for (const quoteObj of allQuotes) {
     console.log(quoteObj)
 }
+
+QuoteList()
