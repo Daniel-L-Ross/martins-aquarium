@@ -4,7 +4,7 @@ const fishCollection = [
         name: 'Bart',
         species: 'Clownfish',
         location: 'Great Barrier Reef',
-        length: '3 inches',
+        length: 5,
         food: 'crustaceans',
     },
     {
@@ -12,7 +12,7 @@ const fishCollection = [
         name: 'Homer',
         species: 'Clownfish',
         location: 'Great Barrier Reef',
-        length: '5 inches',
+        length: 15,
         food: 'Duff Beer',
     },
     {
@@ -20,7 +20,7 @@ const fishCollection = [
         name: 'Marge',
         species: 'Clownfish',
         location: 'Great Barrier Reef',
-        length: '4 inches',
+        length: 4,
         food: 'crustaceans',
     },
     {
@@ -36,7 +36,7 @@ const fishCollection = [
         name: 'Maggie',
         species: 'Clownfish',
         location: 'Great Barrier Reef',
-        length: '1 inch',
+        length: 1,
         food: 'crustaceans',
     },
     {
@@ -44,7 +44,7 @@ const fishCollection = [
         name: 'Santa\'s Little Helper',
         species: 'Dogfish',
         location: 'Florida',
-        length: '4 inches',
+        length: 6,
         food: 'crustaceans',
     },
 ]
