@@ -31,16 +31,16 @@ export const FishList = () => {
     contentElement.innerHTML += `
         <h2 class="content__title">Martin's Fish List</h2>
         <article class="containerLeft__fishList">
+            <h3 class="fish__title">Holy Fish</h3>
             <div class="contentArticle">
-                <h3>Holy Fish</h3>
                 ${holyFishHTML}
             </div>
+            <h3>Soldier Fish</h3>
             <div class="contentArticle">
-                <h3>Soldier Fish</h3>
                 ${soldierFishHTML}
             </div>
+            <h3>Other Fish</h3>
             <div class="contentArticle">
-                <h3>Other Fish</h3>
                 ${unholyFishHTML}
             </div>
         </article>
