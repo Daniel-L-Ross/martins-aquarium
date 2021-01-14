@@ -39,7 +39,7 @@ export const FishList = () => {
             <div class="contentArticle">
                 ${soldierFishHTML}
             </div>
-            <h3>Other Fish</h3>
+            <h3>Other Fish </h3>
             <div class="contentArticle">
                 ${unholyFishHTML}
             </div>
