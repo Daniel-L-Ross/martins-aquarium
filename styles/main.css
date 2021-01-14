@@ -26,12 +26,28 @@ nav {
     justify-content: space-between;
 }
 
+.content__title{
+    text-align: center;
+    /* background-color: red; */
+}
+
+.tipContainer {
+    display: flex;
+    flex-direction: column;
+    /* border: red 1px solid; */
+    /* background: rgba(255, 255, 255, 0.2); */
+    flex: 1;
+    /* border-radius: 10px; */
+    /* margin: 10px 0 10px 15px; */
+}
+
 .containerRight {
     /* border: red 1px solid; */
     background: rgba(255, 255, 255, 0.2);
     flex: 1;
     border-radius: 10px;
     margin: 10px 0 10px 15px;
+    padding: 5px;
 }
 
 .containerLeft {
@@ -46,10 +62,6 @@ nav {
     justify-content: space-evenly;
 }
 
-.containerLeft__fishList {
-
-}
-
 .fishCard {
     flex: 0 1 35%;
     background: rgba(255, 255, 255, 0.2);
@@ -58,7 +70,7 @@ nav {
 }
 
 .fishCard__content {
-    margin: 4px;
+    margin: 5px;
 }
 
 .fishCard__image {
@@ -99,7 +111,7 @@ nav {
     margin: 4px;
 }
 
-.locationCard__landmark {
+.locationCard__image {
     width: 100%;
     object-fit: scale-down;
     border-radius: 10px;

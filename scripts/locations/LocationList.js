@@ -10,6 +10,7 @@ export const LocationList = () => {
         locationHTMLRep += Location(locObj)
     }
     contentElement.innerHTML +=`
+        <h2 class="content__title">Harvesting Locations</h2>
         <article class="containerLeft__LocationList contentArticle">
             ${locationHTMLRep}
         </article>
