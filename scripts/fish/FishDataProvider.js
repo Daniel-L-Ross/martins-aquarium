@@ -82,7 +82,7 @@ export const MostHolyFish = () => {
 export const SoldierFish = () => {
     let fightFish = [];
     for (const fishObj of fishCollection) {
-        if (fishObj.length % 5 === 0 && fishObj.length % 3 != 0) {
+        if (fishObj.length % 5 === 0 && fishObj.length % 3 !== 0) {
             fightFish.push(fishObj)
         }
     }
@@ -92,7 +92,7 @@ export const SoldierFish = () => {
 export const UnHolyFish = () => {
     let otherFish = [];
     for (const fishObj of fishCollection) {
-        if (fishObj.length % 3 != 0 && fishObj.length % 5 != 0) {
+        if (fishObj.length % 3 !== 0 && fishObj.length % 5 !== 0) {
             otherFish.push(fishObj)
         }
     }
